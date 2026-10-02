@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: brown;
+  padding: 30px;
+  margin: 30px;
+  color: beige;
+  font-size: 32px;
+}
+.heading {
+  padding: 20px;
+  margin: 20px;
+  background-color: aqua;
+
+}
+
