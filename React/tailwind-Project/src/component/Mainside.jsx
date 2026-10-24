@@ -16,7 +16,7 @@ const main = () => {
       <Navbar />
       <div className="flex">
          <Loginform/>
-      
+        
       </div>
      
     </div>
