@@ -5,9 +5,11 @@ import { faGoogle, faApple, faFacebook } from "@fortawesome/free-brands-svg-icon
 
 
 
-const Loginform = (prop) => {
+const Loginform = () => {
+  
   return (
-    <form action="#" className='h-fit w-1/3 rounded-3xl p-10   bg-white m-auto my-4'>
+    <div className="form flex justify-center w-full">
+       <form action="#" className='h-fit  rounded-3xl p-10   bg-white  my-4'>
         <h1 className='text-3xl font-bold mb-4 text-center'>Agent Login</h1>
 
         <p className='mb-2 text-sm text-center'>Hey, Enter your details to get <br /> sign in to your account</p>
@@ -24,15 +26,17 @@ const Loginform = (prop) => {
 
         <p className='text-xs text-center font-medium mb-4'>-- Or Sign in with --</p>
 
-        <div className='flex justify-between  w-full h-full gap-1 font-medium text-[14px] mb-4'>
-            <div className='w-full  h-10 border-[0.5px] border-gray-300 rounded-sm text-center content-center '><FontAwesomeIcon fontSize={18} icon={faGoogle} /> Google</div>
-            <div className='w-full  h-10 border-[0.5px] border-gray-300 rounded-sm text-center content-center '><FontAwesomeIcon fontSize={20} icon={faApple} /> Apple Id</div>
-            <div className='w-full  h-10 border-[0.5px] border-gray-300 rounded-sm text-center content-center '><FontAwesomeIcon fontSize={20} icon={faFacebook} /> Facebook</div>
+        <div className='flex justify-between w-full   h-full gap-1 font-bold text-[14px] mb-4'>
+            <div className='  h-10 border-[0.5px] border-gray-300 rounded-sm text-center content-center px-2 '><FontAwesomeIcon fontSize={18} icon={faGoogle} /> Google</div>
+            <div className='  h-10 border-[0.5px] border-gray-300 rounded-sm text-center content-center px-2 '><FontAwesomeIcon fontSize={20} icon={faApple} /> Apple ID</div>
+            <div className='  h-10 border-[0.5px] border-gray-300 rounded-sm text-center content-center px-2 '><FontAwesomeIcon fontSize={20} icon={faFacebook} /> Facebook</div>
         </div>
 
         <p className='text-sm text-center'>Don't have an account? <span className='font-medium'>Request Now</span></p>
 
     </form>
+    </div>
+   
   )
 }
 

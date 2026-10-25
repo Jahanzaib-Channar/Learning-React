@@ -2,6 +2,7 @@ import React from 'react'
 import {Globe} from "lucide-react"
 
 const navbar = () => {
+  
   return (
     <nav className='w-full p-4 flex justify-between'>
         <div className='left w-1/2'>
